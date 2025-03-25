@@ -1,6 +1,10 @@
 from flask import Flask, request, render_template
+import os
 import joblib
 import numpy as np
+
+# Set the environment variable
+os.environ['FLASK_ENV'] = 'production'
 
 app = Flask(__name__)
 
