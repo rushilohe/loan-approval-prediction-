@@ -4,8 +4,8 @@
 
 - [Introduction](#introduction)
 - [Demo](#demo)
-  - [Demo Link](#demo-link)
-  - [Video Demo](#video-demo)
+- [Demo Link](#demo-link)
+- [Video Demo](#video-demo)
 - [Usage](#usage)
 - [Installation](#installation)
 - [Prerequisites](#prerequisites)
