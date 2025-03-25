@@ -1,5 +1,3 @@
-import signal
-import sys
 from flask import Flask, request, render_template
 import os
 import joblib
@@ -117,11 +115,8 @@ def predict():
     else:
         return render_template("prediction.html")
 
-def signal_handler(sig, frame):
-    print('Shutting down gracefully...')
-    sys.exit(0)
 
-signal.signal(signal.SIGINT, signal_handler)
 
+        
 if __name__ == "__main__":
     app.run(debug=True , host='0.0.0.0')
